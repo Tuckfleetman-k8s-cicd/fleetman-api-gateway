@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api-gateway
-        image: 590183937685.dkr.ecr.us-east-1.amazonaws.com/fleetman-api-gateway:4
+        image: 590183937685.dkr.ecr.us-east-1.amazonaws.com/fleetman-api-gateway:6
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice
